@@ -5,6 +5,13 @@
 
 class Number:
 
+	# Python Number
+		# immutable
+		# int
+		# float
+		# complex
+
+
 
 	def __init__(self, a, b):
 		self.a = a
