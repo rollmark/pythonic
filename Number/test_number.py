@@ -30,9 +30,9 @@ class TestNumber(unittest.TestCase):
 		n = Number(3, 2)
 		self.assertEqual(n.division(), 1.5)
 
-	def test_exact_division(self):
+	def test_floor_division(self):
 		n = Number(3, 2)
-		self.assertEqual(n.exact_division(), 1)
+		self.assertEqual(n.floor_division(), 1)
 
 	def test_mod(self):
 		n = Number(5, 2)

@@ -24,7 +24,7 @@ class Number:
 			raise ZeroDivisionError
 		return self.a / self.b
 
-	def exact_division(self):
+	def floor_division(self):
 		if self.b == 0:
 			raise ZeroDivisionError
 		return self.a // self.b
